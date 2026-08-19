@@ -1,7 +1,6 @@
 # Technical-Interview-Qns
 
-```mermaid
-flowchart TD
+
     Start([Start: nums = [2, 3, 5, 7], target = 8]) --> LoopI[Outer Loop: i = 0 to 3]
 
     %% i = 0
@@ -19,6 +18,4 @@ flowchart TD
     LoopJ1 --> Step4["j = 2: nums[1] + nums[2] = 3 + 5 = 8 == target ✓"]
     Step4 --> Match([Return [1, 2]])
 
-    style Step4 fill:#2ea44f,stroke:#238636,color:#ffffff
-    style Match fill:#2ea44f,stroke:#238636,color:#ffffff
 ```
